@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Laradarts
+        psr4_prefix: Laradarts
+        src_path: app
