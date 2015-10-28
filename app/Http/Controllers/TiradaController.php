@@ -36,7 +36,9 @@ class TiradaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $temp1 = $request->json();
+
+        dd($temp1->get('numero'));
     }
 
     /**

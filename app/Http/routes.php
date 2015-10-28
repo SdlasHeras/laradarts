@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::resource('tirada', 'TiradaController');
+Route::resource('throw', 'TiradaController');
